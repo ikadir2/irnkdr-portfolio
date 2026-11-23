@@ -32,4 +32,8 @@ get savey/reward-popup.png        c19ac6b3-dad7-4dcc-9919-f052d6a88b0b.png
 get savey/after-steps.png         c80a0631-0959-4934-9818-58abba406f62.png
 get savey/showcase.png            fbd07aac-2bc9-41ea-bc39-2645374a5bec.png
 
+# Evernest case study
+mkdir -p evernest
+get evernest/elvin.png               099d9653-118f-42ae-8cd3-09d0079a75eb.png
+
 echo "Done. Open index.html to preview."
