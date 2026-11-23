@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Savey — Irene Kadir</title>
+  <meta name="description" content="Savey: a grocery app that makes rescuing near-expiry and imperfect food feel safe. Case study by Irene Kadir.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <div class="wrap">
+      <a href="index.html" class="logo" aria-label="Irene Kadir, home">
+        <span class="corner tl"><img src="assets/logo-corner-tl.svg" alt=""></span>
+        <span class="corner br"><img src="assets/logo-corner-br.svg" alt=""></span>
+        <span class="ik">ik</span>
+      </a>
+      <nav class="menu" aria-label="Main">
+        <a href="index.html" class="link active" aria-current="page">Work</a>
+        <a href="#" class="link no-hover">About</a>
+        <a href="#" class="link no-hover">Playground</a>
+        <a href="mailto:irene.kadir@gmail.com" class="pill-btn">
+          <span class="mail"><img src="assets/mail.svg" alt=""></span>Drop Me a Line
+        </a>
+        <button class="mode-btn" aria-label="Switch to dark mode">
+          <span class="icon"><img src="assets/light-mode.svg" alt=""></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="cs-hero">
+      <div class="wrap">
+        <div class="cs-title reveal in">
+          <p class="eyebrow">Savey</p>
+          <h1>Rescue food, reduce waste</h1>
+        </div>
+        <div class="cbox cs-hero-img reveal">
+          <div class="p " style="--x:-96;--y:-156;--w:1444;--h:962;"><img src="assets/savey/hero.png" alt="Hands holding a phone showing the Savey app"></div>
+          <span class="awards">
+            <span class="ribbon-box"><img src="assets/ribbon.png" alt="Indigo Design Award"></span>
+            <img class="adda" src="assets/adda-2026.png" alt="GD USA award">
+          </span>
+        </div>
+        <div class="overview reveal">
+          <dl class="facts">
+            <div><dt>Role</dt><dd>Product designer</dd></div>
+            <div><dt>Platform</dt><dd>Mobile app</dd></div>
+            <div><dt>Year</dt><dd>2025</dd></div>
+          </dl>
+          <p class="summary">Savey is a grocery app that helps people save money while reducing food waste by offering near-expiry and imperfect food at lower prices. The goal was to make sustainable shopping more accessible, affordable, and appealing by creating an experience that makes shoppers feel confident about rescuing imperfect food.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-index">
+      <div class="wrap">
+        <div class="separator" aria-hidden="true"><span class="line"><img src="assets/separator-line.svg" alt=""></span><span class="sq l"></span><span class="sq r"></span></div>
+        <nav aria-label="Case study sections">
+          <a href="#problem">01 Problem</a>
+          <a href="#insights">02 Insights</a>
+          <a href="#challenge">03 Challenge</a>
+          <a href="#solution">04 Solution</a>
+          <a href="#result">05 Result</a>
+          <a href="#reflection">06 Reflection</a>
+        </nav>
+        <div class="separator" aria-hidden="true"><span class="line"><img src="assets/separator-line.svg" alt=""></span><span class="sq l"></span><span class="sq r"></span></div>
+      </div>
+    </div>
+
+    <section class="cs-sec" id="problem">
+      <div class="wrap">
+        <div class="cs-head reveal">
+          <div class="label" style="--lw:130;">
+          <span class="bg"></span><span class="txt">Problem</span>
+          <span class="dot" style="transform:scaleY(-1)"><img src="assets/label-dot.svg" alt=""></span>
+          <span class="bar l"><img src="assets/label-bar.svg" alt=""></span>
+          <span class="bar r"><img src="assets/label-bar.svg" alt=""></span>
+        </div>
+          <div class="cs-text"><h2>The food nobody wanted to buy</h2><p>A trip to Indonesia showed me stores selling imperfect food at 70% off. Back in the U.S., grocery stores throw away 6 million tons of unsold food every year, and most of it is still good.</p></div>
+        </div>
+        <div class="cbox problem-img reveal">
+          <div class="p big-stat" style="--x:416;--y:54;--w:367;--h:144;"><p class="ctr n">6 Million tons</p><p class="ctr u">of unsold food</p></div>
+          <div class="p cause" style="--x:154;--y:262;--w:229;--h:172;"><div class="p " style="--x:75;--y:29;--w:77.314;--h:68.226;"><span class="p" style="left:0%;top:51.06%;width:46.65%;height:48.94%"><img src="assets/icon-box.svg" alt="" style="position:absolute;inset:-4% -3.7%;width:107.4%;height:108%"></span><span class="p" style="left:26.08%;top:0%;width:46.65%;height:48.94%"><img src="assets/icon-box.svg" alt="" style="position:absolute;inset:-4% -3.7%;width:107.4%;height:108%"></span><span class="p" style="left:53.35%;top:49.71%;width:46.65%;height:48.95%"><img src="assets/icon-box.svg" alt="" style="position:absolute;inset:-4% -3.7%;width:107.4%;height:108%"></span></div><p class="ctr cap">Overstocking</p></div>
+          <div class="p cause" style="--x:485;--y:262;--w:229;--h:172;"><div class="p " style="--x:77;--y:25;--w:72;--h:70.615;"><img src="assets/icon-bestby.svg" alt=""></div><p class="ctr cap">Near-expiry</p></div>
+          <div class="p cause" style="--x:818;--y:262;--w:229;--h:172;"><div class="p " style="--x:69;--y:26;--w:74.222;--h:68;"><img src="assets/icon-imperfect.svg" alt="" style="position:absolute;top:-1.96%;left:-1.35%;width:103.15%;height:103.92%"></div><p class="ctr cap">Imperfect look</p></div>
+          <div class="p " style="--x:269;--y:124;--w:147;--h:138;"><img src="assets/conn-side.svg" alt="" style="position:absolute;top:-4.18%;left:-3.63%;width:103.63%;height:108.04%"></div>
+          <div class="p " style="--x:594.23;--y:198;--w:11.547;--h:69.333;"><img src="assets/conn-mid.svg" alt=""></div>
+          <div class="p " style="--x:783;--y:124;--w:147;--h:138;"><img src="assets/conn-side.svg" alt="" style="position:absolute;top:-4.18%;left:0;width:103.63%;height:108.04%;transform:scaleX(-1)"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-sec" id="insights">
+      <div class="wrap">
+        <div class="cs-head reveal">
+          <div class="label" style="--lw:130;">
+          <span class="bg"></span><span class="txt">Insights</span>
+          <span class="dot" style="transform:scaleY(-1)"><img src="assets/label-dot.svg" alt=""></span>
+          <span class="bar l"><img src="assets/label-bar.svg" alt=""></span>
+          <span class="bar r"><img src="assets/label-bar.svg" alt=""></span>
+        </div>
+          <div class="cs-text"><h2>Value vs trust</h2><p>Most shoppers want a deal, and 72% say they’re willing to buy discounted food. But wanting to save and feeling safe doing it are two different things.<b> But Some Shoppers Hesitate, Why?</b></p></div>
+        </div>
+        <div class="stats reveal">
+          <div class="cbox stat"><p class="vc big pct">60%</p><p class="vc big ppl">of people</p><p class="vc t18 d">aren’t aware of their store’s food waste efforts</p></div>
+          <div class="cbox stat"><p class="vc big pct">20%</p><p class="vc big ppl">of people</p><p class="vc t18 d">avoid near-expiry deals due to freshness concerns</p></div>
+          <div class="cbox stat"><p class="vc big q">Imperfect = unsafe?</p><p class="vc t18 d">a stigma as unsafe/ low-quality food</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-sec">
+      <div class="wrap">
+        <div class="reveal"><div class="cs-text"><h2>Who am I designing for?</h2><p>Lucy wants diet filters. Jeff wants safety without juggling apps. Both want to save and waste less.</p></div></div>
+        <div class="cbox reveal" style="--bh:564;overflow:visible;border-radius:0">
+          <div class="p quote" style="--x:0;--y:0;--w:588;--h:247;"><p class="vc t18 teal who" style="left:calc(51 * var(--s))">Lucy Kim. 33 married, no kids.</p><div class="p " style="--x:51;--y:88;--w:480;--h:10;"><img src="assets/persona-sep.svg" alt=""></div><p class="t18 q" style="position:absolute;left:calc(51 * var(--s));top:calc(123 * var(--s))">“I’m open to discounted or mystery boxes as long as I can <b>filter by diet</b> and track what I buy so nothing goes to waste.”</p></div>
+          <div class="p quote" style="--x:612;--y:0;--w:588;--h:247;"><p class="vc t18 teal who" style="left:calc(51 * var(--s))">Jeff Herrera. 48 married, 1 daughter.</p><div class="p " style="--x:51;--y:88;--w:480;--h:10;"><img src="assets/persona-sep.svg" alt=""></div><p class="t18 q" style="position:absolute;left:calc(51 * var(--s));top:calc(123 * var(--s))">“It’s frustrating that stores throw out food that’s still fine. I’d buy it discounted, but I <b>don’t want to juggle multiple apps</b>.”</p></div>
+          <div class="p " style="--x:298;--y:247;--w:580;--h:136;"><img src="assets/persona-join.svg" alt="" style="position:absolute;top:-3.92%;left:-0.92%;width:101.84%;height:103.92%"></div>
+          <div class="p pain" style="--x:168.5;--y:383;--w:863;--h:181;"><div class="col t18" style="position:absolute;left:calc(49 * var(--s));top:calc(40 * var(--s))"><h4>Pain Points:</h4><p>Labels are unclear, lack diet filters</p></div><div class="col t18" style="position:absolute;left:calc(517 * var(--s));top:calc(40 * var(--s))"><h4>Goals:</h4><p>Save money and reduce waste without risking freshness/ safety</p></div></div>
+        </div>
+        <div class="cbox hmw reveal">
+          <p class="ctr ask">So, I asked:</p>
+          <p class="ctr q">how might we make it simple and appealing to buy discounted food with confidence?</p>
+          <div class="p corner" style="--x:40;--y:40;--w:17.182;--h:17.182;"><img src="assets/hmw-corner.svg" alt=""></div>
+          <div class="p corner" style="--x:1142;--y:366;--w:17.182;--h:17.182;transform:rotate(180deg)"><img src="assets/hmw-corner.svg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-sec" id="challenge">
+      <div class="wrap">
+        <div class="cs-head reveal">
+          <div class="label" style="--lw:130;">
+          <span class="bg"></span><span class="txt">Challenge</span>
+          <span class="dot" style="transform:scaleY(-1)"><img src="assets/label-dot.svg" alt=""></span>
+          <span class="bar l"><img src="assets/label-bar.svg" alt=""></span>
+          <span class="bar r"><img src="assets/label-bar.svg" alt=""></span>
+        </div>
+          <div class="cs-text"><h2>When testing changed everything...</h2><p>Testing showed my favorite feature, Shop Bundle, was confusing, so I cut it. Simplifying made room for what users actually needed: dietary preferences, so they could trust what they buy.</p></div>
+        </div>
+        <div class="cbox before reveal">
+          <div class="p " style="--x:474;--y:113;--w:252;--h:190;background:#f5e8dd;border-radius:calc(10 * var(--s))"></div>
+          <div class="p " style="--x:474;--y:323;--w:252;--h:106;background:#f5e8dd;border-radius:calc(10 * var(--s))"></div>
+          <p class="vc h22 teal" style="left:calc(50 * var(--s));top:calc(52.5 * var(--s))">Before</p>
+          <p class="ctr h22" style="left:calc(599 * var(--s));top:calc(382.5 * var(--s));width:calc(196 * var(--s));color:#f1832a">Confusing &amp; hard to use</p>
+          <div class="p step-box" style="--x:50;--y:135;--w:220;--h:73;"></div>
+          <div class="p step-box warn" style="--x:490;--y:135;--w:220;--h:73;"></div>
+          <div class="p step-box" style="--x:930;--y:135;--w:220;--h:73;"></div>
+          <p class="ctr step-t" style="left:calc(159 * var(--s));top:calc(172 * var(--s))">Discover</p>
+          <p class="ctr step-t warn" style="left:calc(599 * var(--s));top:calc(172 * var(--s))">Shop Bundle</p>
+          <p class="ctr step-t" style="left:calc(1039 * var(--s));top:calc(172 * var(--s))">Earn &amp; Redeem</p>
+          <p class="ctr step-d" style="left:calc(159 * var(--s));top:calc(258 * var(--s));width:calc(196 * var(--s))">Shop and rescue food</p>
+          <p class="ctr step-d" style="left:calc(600 * var(--s));top:calc(258 * var(--s));width:calc(220 * var(--s))">Share bulk items with others</p>
+          <p class="ctr step-d" style="left:calc(1040 * var(--s));top:calc(258 * var(--s));width:calc(220 * var(--s))">Reward system after shopping</p>
+          <span class="arrow-r" style="left:calc(270 * var(--s));top:calc(172 * var(--s))"><img src="assets/before-arrow.svg" alt=""></span>
+          <span class="arrow-r" style="left:calc(710 * var(--s));top:calc(172 * var(--s))"><img src="assets/before-arrow.svg" alt=""></span>
+        </div>
+        <p class="cs-note reveal">Cutting my own feature was the best design decision I made.</p>
+        <div class="cbox after reveal">
+          <p class="vc aft">After</p>
+          <p class="vc head">Trust in every bite, rewards in every rescue</p>
+          <div class="p " style="--x:50;--y:330.87;--w:1096;--h:342.396;"><img src="assets/savey/after-steps.png" alt="Three steps: dietary preferences, discover and rescue, earn and reward"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-sec" id="solution">
+      <div class="wrap">
+        <div class="cs-head reveal">
+          <div class="label" style="--lw:130;">
+          <span class="bg"></span><span class="txt">Solution</span>
+          <span class="dot" style="transform:scaleY(-1)"><img src="assets/label-dot.svg" alt=""></span>
+          <span class="bar l"><img src="assets/label-bar.svg" alt=""></span>
+          <span class="bar r"><img src="assets/label-bar.svg" alt=""></span>
+        </div>
+          <div class="cs-text"><h2>Solving visibility at the start</h2><p>Trust starts before the first purchase. At onboarding, users set their allergies, dietary restrictions, and foods they’d like to skip, so every deal that follows is personalized. This answered Lucy’s need for diet filters.</p></div>
+        </div>
+        <div class="phones reveal">
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/onboard-diet.png" alt="Dietary preferences screen"></div>
+            </div>
+            <p class="phone-cap">Dietary preferences</p>
+          </div>
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/onboard-allergies.png" alt="Food Allergies screen"></div>
+            </div>
+            <p class="phone-cap">Food Allergies</p>
+          </div>
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/onboard-skip.png" alt="Food to skip screen"></div>
+            </div>
+            <p class="phone-cap">Food to skip</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-sec">
+      <div class="wrap">
+        <div class="reveal"><div class="cs-text"><h2>Every details build trust</h2><p>Every deal shows what shoppers need to feel safe: a clear best-by date, a product condition note (“box is mildly bent, product inside unaffected”), a verified label, and community reviews. This closes the trust gap, so rescued food feels like a smart choice and not a risky one.</p></div></div>
+        <div class="phones reveal">
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/trust-discover.png" alt="Discover items screen"></div>
+            </div>
+            <p class="phone-cap">Discover items</p>
+          </div>
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/trust-details.png" alt="View item details screen"></div>
+            </div>
+            <p class="phone-cap">View item details</p>
+          </div>
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/trust-order.png" alt="Order placeed screen"></div>
+            </div>
+            <p class="phone-cap">Order placeed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-sec">
+      <div class="wrap">
+        <div class="reveal"><div class="cs-text"><h2>Earn rewards for rescuing food</h2><p>Every rescue earns points that turn into rewards, and an impact dashboard shows foods rescued and money saved. I trimmed the earning flow so it no longer repeats the discovery steps.</p></div></div>
+        <div class="phones reveal">
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/reward-earning.png" alt="Earning page screen"></div>
+            </div>
+            <p class="phone-cap">Earning page</p>
+          </div>
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/reward-rewards.png" alt="Rewards page screen"></div>
+            </div>
+            <p class="phone-cap">Rewards page</p>
+          </div>
+          <div class="phone-col">
+            <div class="phone">
+              <img class="frame" src="assets/savey/phone-frame.png" alt="">
+              <div class="screen"><img src="assets/savey/reward-rewards.png" alt="Reward unlocked screen"><span class="dim"></span><span class="popup"><img src="assets/savey/reward-popup.png" alt="Free coffee unlocked"></span></div>
+            </div>
+            <p class="phone-cap">Reward unlocked</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase">
+      <div class="wrap reveal">
+        <div class="cbox"><img src="assets/savey/showcase.png" alt="A spread of Savey app screens"></div>
+      </div>
+    </section>
+
+    <section class="cs-sec tight" id="result" style="padding-top:0">
+      <div class="wrap">
+        <div class="reveal" style="display:flex;flex-direction:column;gap:calc(30 * var(--s))">
+          <div class="label" style="--lw:130;">
+          <span class="bg"></span><span class="txt">Result</span>
+          <span class="dot" style="transform:scaleY(-1)"><img src="assets/label-dot.svg" alt=""></span>
+          <span class="bar l"><img src="assets/label-bar.svg" alt=""></span>
+          <span class="bar r"><img src="assets/label-bar.svg" alt=""></span>
+        </div>
+          <div class="cs-text"><h2>Trust Turned “Imperfect” Into “Worth It”.</h2><p>In testing, users found the new flow simpler and clearer. Reviews, best-by labels, and product details built trust, and dietary preferences made them feel confident. Their feedback captured it best.</p></div>
+        </div>
+        <div class="cbox reveal" style="--bh:247;overflow:visible;border-radius:0">
+          <div class="p quote semi" style="--x:0;--y:0;--w:588;--h:247;"><p class="vc t18 teal who" style="left:calc(51 * var(--s))">Nanda, Pinky, Jesslyn</p><div class="p " style="--x:51;--y:88;--w:480;--h:10;"><img src="assets/persona-sep.svg" alt=""></div><p class="t18 q" style="position:absolute;left:calc(51 * var(--s));top:calc(123 * var(--s))">”A little imperfect is okay — as long as it’s still good to eat, it helps save money, reduce waste, and support the environment.”</p></div>
+          <div class="p quote semi" style="--x:612;--y:0;--w:588;--h:247;"><p class="vc t18 teal who" style="left:calc(51 * var(--s))">Salo, Eddie, John</p><div class="p " style="--x:51;--y:88;--w:480;--h:10;"><img src="assets/persona-sep.svg" alt=""></div><p class="t18 q" style="position:absolute;left:calc(51 * var(--s));top:calc(123 * var(--s))">“Rescue food and earn rewards, the details and reviews give me confidence.”</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-sec tight last" id="reflection">
+      <div class="wrap">
+        <div class="reveal" style="display:flex;flex-direction:column;gap:calc(30 * var(--s))">
+          <div class="label" style="--lw:143;--lr:142;">
+          <span class="bg"></span><span class="txt">Reflection</span>
+          <span class="dot" style="transform:scaleY(-1)"><img src="assets/label-dot.svg" alt=""></span>
+          <span class="bar l"><img src="assets/label-bar.svg" alt=""></span>
+          <span class="bar r"><img src="assets/label-bar.svg" alt=""></span>
+        </div>
+          <div class="cs-text"><h2>What Savey thought me</h2><p>Building Savey changed how I think about designing for trust. Four lessons stayed with me.</p></div>
+        </div>
+        <div class="lessons reveal">
+          <div class="cbox lesson"><p class="vc"><b>Trust is everything</b>Clear labels, reviews, and product details are essential for buying near-expiry food.</p></div>
+          <div class="cbox lesson"><p class="vc"><b>Personalization matters</b>Dietary preferences and favorite foods make discovery easier and more confident.</p></div>
+          <div class="cbox lesson"><p class="vc"><b>Simplicity wins</b>Users prefer simple flows over complex features like sharing bundles.</p></div>
+          <div class="cbox lesson"><p class="vc"><b>Sustainability &amp; rewards</b>Saving food and earning rewards keeps users engaged and motivated.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer cs-foot" id="contact">
+    <div class="wrap">
+      <div class="others reveal">
+        <h3>Other Works</h3>
+        <div class="work-cards">
+          <a href="index.html#work" class="work-card">
+            <span class="cbox light"><span class="zoom">
+              <div class="p " style="--x:-173.83;--y:-112;--w:730.573;--h:488;"><img src="assets/evernest-mockup.png" alt="" style="object-fit:cover"></div>
+              <div class="p dash" style="--x:61.24;--y:44.9;--w:253.757;--h:159.689;"><img src="assets/evernest-dashboard.png" alt="Evernest dashboard"></div>
+            </span></span>
+            <span><b>Evernest:</b>Website app/Dasboard</span>
+          </a>
+          <a href="index.html#work" class="work-card"><span class="cbox"></span><span><b>BillEase:</b>Mobile App</span></a>
+          <a href="index.html#work" class="work-card"><span class="cbox"></span><span><b>La Casa Mia:</b>Website/Interactive Menu</span></a>
+        </div>
+      </div>
+      <div class="say-row">
+        <a href="mailto:irene.kadir@gmail.com" class="outline-btn"><span class="m"><img src="assets/mail-lime.svg" alt=""></span>Say Hello!</a>
+        <a href="#top" class="round-btn back-top" aria-label="Back to top"><img src="assets/btn-back-to-top.svg" alt=""></a>
+      </div>
+      <div class="legal">
+        <div class="separator" aria-hidden="true"><span class="line"><img src="assets/separator-line.svg" alt=""></span><span class="sq l"></span><span class="sq r"></span></div>
+        <div class="legal-row">
+          <p>© Irene Kadir 2026</p>
+          <div class="links"><a href="mailto:irene.kadir@gmail.com">Email</a><a href="https://www.linkedin.com/in/irene-k-4a3567102/" target="_blank" rel="noopener">Linkedin</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Fade sections up as they scroll into view
+    const io = new IntersectionObserver(entries => entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    }), { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Section index: highlight the section you're reading
+    const links = [...document.querySelectorAll('.cs-index a')];
+    const secs = links.map(a => document.querySelector(a.getAttribute('href')));
+    const spy = () => {
+      const line = innerHeight * 0.35;
+      let cur = 0;
+      secs.forEach((s, i) => { if (s.getBoundingClientRect().top <= line) cur = i; });
+      links.forEach((a, i) => a.classList.toggle('on', i === cur));
+    };
+    addEventListener('scroll', spy, { passive: true }); spy();
+
+    // Back to top
+    document.querySelector('.back-top').addEventListener('click', e => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    });
+  </script>
+</body>
+</html>
